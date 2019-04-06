@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title> Personality Quiz</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
@@ -33,13 +34,32 @@
 				<input type="radio" id="responsible" name="law">
 				<label for="responsible"> Responsible for what I say and do! </label>
 			</div>
+			<div id="question3">
+				<h2> What is your best quality?</h2>
+				<input type="radio" id="confident" name="quality">
+				<label for="confident"> Confident</label>
+				<input type="radio" id="truthful" name="quality">
+				<label for="truthful"> Truthful</label>
+				<input id="fincially" type="radio" name="quality">
+				<label for="fincially"> Finacially Savvy</label>
+				<input id="ambitious" type="radio" name="quality">
+				<label for="ambitious"> Ambitious</label>
+			</div>
+			<div id="question4">
+				<h2> How do you handle challenges in life?</h2>
+				<input id="takeThem" type="radio" name="challenges">
+				<label for="takeThem"> I take my challanges in life head-on! I can overcome anything!</label>
+				<input id="plan"type="radio" name="challenges">
+				<label for="plan"> I plan out every way possible to overcome my challanges! </label>
+				<input id="help" type="radio" name="challenges">
+				<label for="help"> I ask for help, of course!</label>
+			</div>
 		</div>
 		<button id="form-submit"> Submit</button>
 		<div id="result">
 			
 		</div>
 	</main>
-
 		<script src="script.js"></script>
 </body>
 </html>
